@@ -1,6 +1,11 @@
 import React from "react";
 
 const Domiciliation = () => {
+    useEffect(() => {
+    // Faire défiler vers le haut au chargement de la page
+    window.scrollTo(0, 0);
+}, []);
+
   return (
     <section id="domiciliation" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

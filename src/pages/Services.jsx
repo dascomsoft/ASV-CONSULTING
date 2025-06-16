@@ -4,6 +4,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Services = () => {
+    useEffect(() => {
+    // Faire défiler vers le haut au chargement de la page
+    window.scrollTo(0, 0);
+}, []);
   const services = [
     {
       icon: "💰",

@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 const About = () => {
+    useEffect(() => {
+    // Faire défiler vers le haut au chargement de la page
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className="min-h-screen">
 
