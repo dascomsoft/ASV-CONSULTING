@@ -95,18 +95,6 @@ Merci de me recontacter.`;
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9V3m0 0a9 9 0 00-9 9m9-9l-3 3m0-3l-3-3" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-1">Site Web</h4>
-                  <p className="text-gray-600">www.avscam.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
                 <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                   <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
