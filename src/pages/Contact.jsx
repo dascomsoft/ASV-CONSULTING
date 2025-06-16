@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
+import { useEffect } from 'react';
 
 const Contact = () => {
 
