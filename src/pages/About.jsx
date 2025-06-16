@@ -128,45 +128,6 @@ const About = () => {
       </div>
     </section>
 
-
-
-
-
-      {/* Notre Histoire */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-blue-600 mb-6">Notre Histoire</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                AVS Consulting est née de la volonté de proposer des services financiers et de conseil 
-                de qualité internationale au Cameroun. Fondée par une équipe d'experts passionnés, 
-                notre entreprise s'est rapidement imposée comme un acteur incontournable dans 
-                l'accompagnement patrimonial et business.
-              </p>
-              <p className="text-lg text-gray-600 mb-6">
-                Nous croyons fermement que chaque client mérite une approche personnalisée et des 
-                solutions adaptées à ses besoins spécifiques. Notre expertise nous permet d'offrir 
-                des conseils avisés dans un environnement en constante évolution.
-              </p>
-            </div>
-            <div className="bg-gradient-to-br from-blue-50 to-yellow-50 rounded-lg p-8 h-96 flex items-center justify-center">
-              <div className="text-center">
-                {/* <div className="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <span className="text-2xl font-bold text-white">🏢</span>
-                </div> */}
-                    <img 
-                src="/images/cabinet3.jpeg" 
-                alt="Étudiant avec ordinateur portable"
-                className="rounded-lg shadow-xl w-full max-w-4xl mx-auto h-[300px] object-cover"
-              />
-                <p className="text-gray-600 pt-4">Excellence depuis notre création</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Mission, Vision, Valeurs */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
