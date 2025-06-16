@@ -1,12 +1,66 @@
-# React + Vite
+# AVS Consulting - Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a professional website currently under development for **AVS Consulting**, a firm specializing in **wealth management**, **investment advisory**, **business domiciliation**, and **administrative/accounting solutions**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React + Vite** – fast and modern front-end framework
+- **Tailwind CSS** – utility-first responsive styling
+- **EmailJS** – contact form email handling
+
+
+
+## 🎯 Project Goals
+
+- Showcase AVS Consulting's expertise and services
+- Enable fast and easy client contact
+- Offer online business domiciliation solutions
+- Build trust and generate leads
+
+
+
+## 🧱 Site Structure
+
+- **Home** – company intro, slogans, call-to-actions
+- **About Us** – company background and values
+- **Services** – details on wealth, investment, business, and admin solutions
+- **Domiciliation** – 3 business address packages (Basic, Standard, Premium)
+- **Contact** – form, phone, WhatsApp, email
+- **Footer** – legal info, socials, contact links
+
+
+
+## 🔧 Features
+
+- Fully responsive design
+- Contact form with EmailJS integration
+- WhatsApp and direct email buttons
+- Downloadable resources
+- SEO optimization
+- Admin-friendly (CMS ready)
+
+
+
+## 🖌️ Visual Identity
+
+- Colors: Blue, white, black, yellow
+- Modern, clean layout
+- Professional branding and images
+
+
+
+## 📦 Deliverables
+
+- Fully functional website
+- Admin guide (for content updates)
+- Graphic assets (logo, images)
+- Secure admin access
+
+
+
+
+
+
+> Project in progress — built with precision to meet the client's final specifications.
