@@ -219,18 +219,16 @@ const Index = () => {
 
           {/* Boutons CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => scrollToSection('contact')}
+            <Link to='contact' 
               className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg"
             >
               Prendre Contact
-            </button>
-            <button 
-              onClick={() => scrollToSection('domiciliation')}
+            </Link>
+            <Link to='/domiciliation'
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg"
             >
               Domiciliation d'Entreprise
-            </button>
+            </Link>
           </div>
         </div>
       </div>

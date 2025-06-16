@@ -260,10 +260,10 @@ const About = () => {
               Nous contacter
             </Link>
             <Link
-              to="/team"
+              to="/domiciliation"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-gray-300 bg-white hover:bg-gray-50 text-blue-600 h-10 px-4 py-2"
             >
-              Rencontrer l'équipe
+              A savoir plus
             </Link>
           </div>
         </div>
