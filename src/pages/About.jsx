@@ -14,7 +14,7 @@ const About = () => {
     <div className="min-h-screen">
 
     {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-500 text-white py-20">
+      <section className="bg-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">À Propos de AVS Consulting</h1>
@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
       </section>
-  <section id="apropos" className="py-16 bg-white">
+  <section id="apropos" className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -231,7 +231,7 @@ const About = () => {
       </section>
 
       {/* Téléchargement Brochure */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-slate-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">Découvrez notre brochure</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

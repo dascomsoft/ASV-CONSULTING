@@ -27,10 +27,11 @@ export default function Navbar() {
         </div>
         <ul className="hidden md:flex space-x-6 items-center text-sm text-gray-700 font-medium">
           <li><Link to="/" className="hover:text-blue-600 transition-colors">Accueil</Link></li>
-          <li><Link to="/about" className="hover:text-blue-600 transition-colors">A propos</Link></li>
-          <li><Link to="/services" className="hover:text-blue-600 transition-colors">Services</Link></li>
-          <li><Link to="/domiciliation" className="hover:text-blue-600 transition-colors">Domiciliation</Link></li>
-          <li><Link to="/contact" className="hover:text-blue-600 transition-colors">Contact</Link></li>
+          <li><Link to="/about" className="hover:text-blue-600 transition-colors">  À propos</Link></li>
+          <li><Link to="/services" className="hover:text-blue-600 transition-colors">Nos Services</Link></li>
+          <li><Link to="/news" className="hover:text-blue-600 transition-colors">News</Link></li>
+          <li><Link to="/careers" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Nous Rejoindre</Link></li>
+          <li><Link to="/contact" className="hover:text-blue-600 transition-colors">Nous Contacter</Link></li>
           <li>
             <a 
               href="https://wa.me/237652280125" 
@@ -47,10 +48,11 @@ export default function Navbar() {
         <div className="md:hidden bg-white px-4 pb-4">
           <ul className="space-y-3 text-gray-700">
             <li><Link to="/" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Accueil</Link></li>
-            <li><Link to="/about" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">A propos</Link></li>
-            <li><Link to="/services" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Services</Link></li>
-            <li><Link to="/domiciliation" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Domiciliation</Link></li>
-            <li><Link to="/contact" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Contact</Link></li>
+            <li><Link to="/about" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">  À propos</Link></li>
+            <li><Link to="/services" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Nos Services</Link></li>
+            <li><Link to="/news" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">News</Link></li>
+           <li><Link to="/careers" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Nous Rejoindre</Link></li>
+            <li><Link to="/contact" onClick={() => setOpen(false)} className="block py-2 hover:text-blue-600">Nous Contacter</Link></li>
             <li>
               <a 
                 href="https://wa.me/237652280125" 

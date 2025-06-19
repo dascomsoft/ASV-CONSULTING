@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
+import ServicesContent from "../../helper/ServicesContent";
 
 const Services = () => {
     useEffect(() => {
@@ -65,11 +66,8 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
-
-
-
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-500 text-white py-20">
+      <section className="bg-slate-900 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Nos Services</h1>
@@ -80,119 +78,201 @@ const Services = () => {
         </div>
       </section>
 
- <section id="services" className="py-16 bg-gray-50">
+     <ServicesContent />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="domiciliation" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Nos Services
+            Domiciliation d'Entreprise
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Découvrez notre gamme complète de services conçus pour accompagner votre réussite financière et entrepreneuriale
+          <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+            Vous souhaitez créer ou gérer une entreprise au Cameroun sans être physiquement présent ? 
+            Donnez une adresse légale et professionnelle à votre activité, vos rendez-vous professionnels 
+            sans charges d'un local.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
-          {/* Gestion de Patrimoine */}
-          <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800">Gestion de Patrimoine</h3>
+        {/* Avantages */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="text-center">
+            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
             </div>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Sécuriser et capitaliser vos avoirs. Nous abordons votre patrimoine dans sa globalité, 
-              sous l'angle juridique, financier, fiscal et social. Nous vous accompagnons tout au long 
-              de vos projets et vous apportons nos conseils en matière d'optimisation patrimoniale.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Optimisation fiscale</span>
-              <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Sécurisation</span>
-              <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Capitalisation</span>
-            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Adresse Prestigieuse</h3>
+            <p className="text-gray-600">Yaoundé - Mvog ada, adresse professionnelle pour votre entreprise</p>
           </div>
 
-          {/* Business Solution */}
-          <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mr-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800">Business Solution</h3>
+          <div className="text-center">
+            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+              </svg>
             </div>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Déjà dans une activité, vous souhaitez faire croître votre rentabilité, diversifier votre entreprise. 
-              Audit et accompagnement dans la mise en place de solutions adaptées à votre secteur d'activité.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Audit</span>
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Croissance</span>
-              <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Diversification</span>
-            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Économies</h3>
+            <p className="text-gray-600">Évitez les coûts de loyer exorbitants d'un bureau physique</p>
           </div>
 
-          {/* Conseil en investissement */}
-          <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-yellow-100 rounded-xl flex items-center justify-center mr-4">
-                <svg className="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+          <div className="text-center">
+            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">Conformité Légale</h3>
+            <p className="text-gray-600">Respectez toutes les obligations légales de domiciliation</p>
+          </div>
+        </div>
+
+        {/* Offres de domiciliation */}
+        <div className="grid lg:grid-cols-3 gap-8 mb-12">
+          {/* Offre Basique */}
+          <div className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">Basique</h3>
+              <div className="text-4xl font-bold text-blue-600 mb-1">20 000</div>
+              <div className="text-gray-600">FCFA/mois</div>
+            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800">Conseil en Investissement</h3>
-            </div>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              À la recherche d'une activité génératrice de revenu, comment fructifier vos avoirs, 
-              peu importe la taille de votre portefeuille. Nous vous aidons à trouver des solutions 
-              adaptées à votre profil de risque et vos objectifs.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Profil adapté</span>
-              <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Revenus passifs</span>
-              <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Diversification</span>
-            </div>
+                <span className="text-gray-700">Adresse officielle</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Réception de courrier</span>
+              </li>
+            </ul>
+            <button className="w-full bg-gray-600 text-white py-3 rounded-lg hover:bg-gray-700 transition-colors font-semibold">
+              Choisir cette offre
+            </button>
           </div>
 
-          {/* Facilitation administrative */}
-          <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-6">
-              <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mr-4">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          {/* Offre Standard */}
+          <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-200 hover:shadow-lg transition-shadow relative">
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Populaire</span>
+            </div>
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">Standard</h3>
+              <div className="text-4xl font-bold text-blue-600 mb-1">30 000</div>
+              <div className="text-gray-600">FCFA/mois</div>
+            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800">Facilitation Administrative et Comptable</h3>
+                <span className="text-gray-700">Adresse officielle</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Réception de courrier</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Notification WhatsApp</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Scan email</span>
+              </li>
+            </ul>
+            <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+              Choisir cette offre
+            </button>
+          </div>
+
+          {/* Offre Premium */}
+          <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl p-8 hover:shadow-lg transition-shadow">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">Premium</h3>
+              <div className="text-4xl font-bold text-yellow-600 mb-1">50 000</div>
+              <div className="text-gray-600">FCFA/mois</div>
             </div>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Vous n'avez pas le temps d'effectuer vos démarches administratives, comptabilité et archivage 
-              de vos documents personnels ou d'entreprise, domiciliation de votre activité chez nous pour 
-              éviter des coûts de loyer exorbitants. Confiez-nous toutes ces tâches.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Démarches</span>
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Comptabilité</span>
-              <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Archivage</span>
-            </div>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Adresse officielle</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Réception de courrier</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Notification + Scan</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">1 accès bureau/mois</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-700">Assistance administrative</span>
+              </li>
+            </ul>
+            <button className="w-full bg-yellow-600 text-white py-3 rounded-lg hover:bg-yellow-700 transition-colors font-semibold">
+              Choisir cette offre
+            </button>
           </div>
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-12">
-          <p className="text-lg text-gray-600 mb-6">
-            Prêt à faire fructifier votre patrimoine ?
+        <div className="text-center bg-blue-600 rounded-xl p-8 text-white">
+          <h3 className="text-2xl font-bold mb-4">Prêt à domicilier votre entreprise ?</h3>
+          <p className="text-xl mb-6 opacity-90">
+            Contactez-nous dès maintenant pour plus d'informations et commencer votre domiciliation
           </p>
           <a 
             href="https://wa.me/237652280125" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg inline-block"
+            className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg shadow-lg inline-block"
           >
-            Demander un Conseil Personnalisé
+            Demander votre domiciliation
           </a>
         </div>
       </div>
@@ -202,73 +282,6 @@ const Services = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* Services détaillés */}
-
-{/*       
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="space-y-20">
-            {services.map((service, index) => (
-              <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
-                index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
-              }`}>
-                <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
-                  <div className="flex items-center mb-6">
-                    <div className="text-4xl mr-4">{service.icon}</div>
-                    <h2 className="text-4xl font-bold text-blue-600">{service.title}</h2>
-                  </div>
-                  <p className="text-lg text-gray-600 mb-8">
-                    {service.description}
-                  </p>
-                  
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-blue-600 mb-4">Ce que nous proposons :</h3>
-                    <ul className="space-y-3">
-                      {service.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="flex items-start space-x-3">
-                          <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span className="text-gray-600">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <Link
-                    to="/contact"
-                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2"
-                  >
-                    En savoir plus
-                  </Link>
-                </div>
-                
-                <div className={`${service.image} rounded-lg p-8 h-96 flex items-center justify-center ${
-                  index % 2 === 1 ? 'lg:col-start-1' : ''
-                }`}>
-                  <div className="text-center">
-                    <div className="text-6xl mb-4">{service.icon}</div>
-                    <h3 className="text-2xl font-bold text-blue-600">{service.title}</h3>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
 
 
