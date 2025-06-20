@@ -80,24 +80,6 @@ const Services = () => {
 
      <ServicesContent />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <section id="domiciliation" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -277,16 +259,6 @@ const Services = () => {
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
       {/* Processus de travail */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -372,9 +344,9 @@ const Services = () => {
             >
               Consultation gratuite
             </Link>
-            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-white/20 bg-transparent hover:bg-white/10 text-white h-10 px-4 py-2">
+            <a  href="/images/asv2.jpeg" download="brochure.jpeg" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-white/20 bg-transparent hover:bg-white/10 text-white h-10 px-4 py-2">
               📄 Télécharger la brochure
-            </button>
+            </a>
           </div>
         </div>
       </section>

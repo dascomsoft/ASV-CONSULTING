@@ -18,8 +18,8 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      title: "Notre vision est de mieux grandir",
-      subtitle: "Performance et détermination au service de vos projets",
+      title: "Pour une diaspora au controle meme a distance",
+      subtitle: "Vous restez connectés à vos projets et vos engagements au pays",
       description: "Nous accompagnons votre croissance avec expertise et engagement.",
       imageUrl: "/images/cabinet1.jpeg"
     },
@@ -46,21 +46,21 @@ const Index = () => {
       position: "CEO, Groupe Mvondo",
       quote: "AVS Consulting a transformé notre gestion financière. Leurs conseils ont permis à notre entreprise de croître de 40% en deux ans.",
       rating: 5,
-      image: "https://randomuser.me/api/portraits/men/32.jpg"
+      image: "images/pic4.jpg"
     },
     {
       name: "Aïssatou Ndiaye",
       position: "Investisseuse, Paris",
       quote: "En tant que membre de la diaspora, j'apprécie particulièrement l'accompagnement personnalisé d'AVS pour investir au Cameroun en toute confiance.",
       rating: 5,
-      image: "https://randomuser.me/api/portraits/women/44.jpg"
+      image: "/images/pic1.png"
     },
     {
       name: "Olivier Kenfack",
       position: "Directeur, Banque Atlantique",
       quote: "Le professionnalisme et l'expertise de l'équipe AVS en font un partenaire incontournable pour tous les besoins en conseil financier.",
       rating: 4.5,
-      image: "https://randomuser.me/api/portraits/men/75.jpg"
+      image: "images/pic2.png"
     }
   ]
 
@@ -248,7 +248,7 @@ const Index = () => {
         <div className="text-center">
           {/* Logo Principal */}
           <div className="flex justify-center mb-8">
-            <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-white px-8 py-4 rounded-2xl shadow-lg">
+            <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white px-8 py-4 rounded-2xl shadow-lg">
               <h1 className="text-4xl md:text-6xl font-bold">AVS</h1>
               <p className="text-xl md:text-2xl font-light">Consulting</p>
             </div>
@@ -269,7 +269,7 @@ const Index = () => {
               et la domiciliation d'entreprise. Nous accompagnons entrepreneurs, investisseurs 
               et particuliers dans la sécurisation et la croissance de leurs avoirs.
             </p>
-            <div className="bg-slate-800 text-white p-6 rounded-xl">
+            <div className="bg-blue-800 text-white p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-2">POUR UNE DIASPORA AU CONTRÔLE MÊME À DISTANCE</h3>
               <p className="text-slate-200">Vous restez connectés à vos projets et vos engagements au pays</p>
             </div>
@@ -303,7 +303,7 @@ const Index = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Domiciliation d'Entreprise</h3>
+              <h3 className="font-semibold text-gray-800 mb-2">Business Solution</h3>
               <p className="text-sm text-gray-600">Adresse légale pour votre activité</p>
             </div>
 
@@ -313,25 +313,25 @@ const Index = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Solutions Administratives</h3>
+              <h3 className="font-semibold text-gray-800 mb-2">Facilitation administrative et comptable</h3>
               <p className="text-sm text-gray-600">Gestion complète de vos démarches</p>
             </div>
           </div>
 
           {/* Boutons CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => scrollToSection('contact')}
+            <Link
+              to='/contact'
               className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg"
             >
               Prendre Contact
-            </button>
-            <button 
-              onClick={() => scrollToSection('domiciliation')}
+            </Link>
+            <Link 
+              to='/about'
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg"
             >
-              Domiciliation d'Entreprise
-            </button>
+              En savoir plus
+            </Link>
           </div>
         </div>
       </div>
