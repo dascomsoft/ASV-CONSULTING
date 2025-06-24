@@ -4,7 +4,7 @@ import React from 'react';
 const CareersPage = () => {
   return (
     <div className="min-h-screen bg-slate-800">
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,9 +40,9 @@ const CareersPage = () => {
               </p>
               <div className="bg-slate-800 p-4 rounded-lg">
                 <p className="text-blue-400 font-mono text-lg">info@avscam.com</p>
-                <p className="text-slate-300 mt-2">
+                {/* <p className="text-slate-300 mt-2">
                   <strong>Objet :</strong> demande de stage-[VOTRE NOM]
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -55,7 +55,7 @@ const CareersPage = () => {
                   <li>• Copie de la CNI</li>
                 </ul>
               </div>
-              
+
               <div className="bg-slate-600 rounded-xl p-6">
                 <h4 className="text-lg font-bold text-white mb-3">🎯 Domaines de stage</h4>
                 <ul className="text-slate-300 space-y-2">
@@ -68,7 +68,7 @@ const CareersPage = () => {
             </div>
 
             <div className="text-center">
-              <a 
+              <a
                 href="mailto:info@avscam.com?subject=demande de stage-[VOTRE NOM]"
                 className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg inline-block"
               >
@@ -85,7 +85,7 @@ const CareersPage = () => {
           <h2 className="text-3xl font-bold text-white text-center mb-12">
             Pourquoi rejoindre AVS Consulting ?
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-slate-700 rounded-xl p-6 text-center">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -102,8 +102,14 @@ const CareersPage = () => {
             <div className="bg-slate-700 rounded-xl p-6 text-center">
               <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 20h5v-2a4 4 0 00-5-3.87M9 20H4v-2a4 4 0 015-3.87m5-1.13a4 4 0 100-8 4 4 0 000 8zm6 0a4 4 0 00-.88-7.9M6.88 10.1a4 4 0 00-.88 7.9"
+                  />
                 </svg>
+
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Équipe</h3>
               <p className="text-slate-300">

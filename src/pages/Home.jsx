@@ -242,100 +242,101 @@ const Index = () => {
 
 
 
-    {/*Hero*/}
-    <section id="accueil" className="bg-gradient-to-br from-slate-100 to-gray-200 pt-24 pb-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          {/* Logo Principal */}
-          <div className="flex justify-center mb-8">
-            <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white px-8 py-4 rounded-2xl shadow-lg">
-              <h1 className="text-4xl md:text-6xl font-bold">AVS</h1>
-              <p className="text-xl md:text-2xl font-light">Consulting</p>
+      {/*Hero*/}
+      <section id="accueil" className="bg-gradient-to-br from-slate-100 to-gray-200 pt-24 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            {/* Logo Principal */}
+            <div className="flex justify-center mb-8">
+              <div className="bg-gradient-to-r from-blue-800 to-blue-900 text-white px-8 py-4 rounded-2xl shadow-lg">
+                <h1 className="text-4xl md:text-6xl font-bold">AVS</h1>
+                <p className="text-xl md:text-2xl font-light">Consulting</p>
+              </div>
             </div>
-          </div>
 
-          {/* Slogan Principal */}
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4">
-            INVESTIR EN AFRIQUE
-          </h2>
-          <p className="text-xl md:text-2xl text-blue-600 font-semibold mb-8">
-            Votre patrimoine, notre priorité
-          </p>
-
-          {/* Description */}
-          <div className="max-w-4xl mx-auto mb-12">
-            <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-6">
-              Cabinet de conseil spécialisé dans la gestion de patrimoine, les investissements 
-              et la domiciliation d'entreprise. Nous accompagnons entrepreneurs, investisseurs 
-              et particuliers dans la sécurisation et la croissance de leurs avoirs.
+            {/* Slogan Principal */}
+            <h2 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4">
+              INVESTIR EN AFRIQUE
+            </h2>
+            <p className="text-xl md:text-2xl text-blue-600 font-semibold mb-8">
+              Votre patrimoine, notre priorité
             </p>
-            <div className="bg-blue-800 text-white p-6 rounded-xl">
-              <h3 className="text-xl font-bold mb-2">POUR UNE DIASPORA AU CONTRÔLE MÊME À DISTANCE</h3>
-              <p className="text-slate-200">Vous restez connectés à vos projets et vos engagements au pays</p>
-            </div>
-          </div>
 
-          {/* Services Phares */}
-          <div className="grid md:grid-cols-4 gap-6 mb-12">
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                </svg>
+            {/* Description */}
+            <div className="max-w-4xl mx-auto mb-12">
+              <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-6">
+                Cabinet de conseil spécialisé dans la gestion de patrimoine, les investissements
+                , la facilitation administrative et comptable. Nous accompagnons entrepreneurs, investisseurs
+                et particuliers dans la sécurisation et la croissance de leurs avoirs.
+              </p>
+              <div className="bg-blue-800 text-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-2">POUR UNE DIASPORA AU CONTRÔLE MÊME À DISTANCE</h3>
+                <p className="text-slate-200">Vous restez connectés à vos projets et vos engagements au pays</p>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Gestion de Patrimoine</h3>
-              <p className="text-sm text-gray-600">Optimisation et sécurisation de vos avoirs</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                </svg>
+            {/* Services Phares */}
+            <div className="grid md:grid-cols-4 gap-6 mb-12">
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 9.75L12 3l9 6.75V20a1 1 0 01-1 1h-5.25a.75.75 0 01-.75-.75v-5.25a.75.75 0 00-.75-.75h-2.5a.75.75 0 00-.75.75V20.25a.75.75 0 01-.75.75H4a1 1 0 01-1-1V9.75z" />
+                  </svg>
+                </div>
+                <h3 className="font-semibold text-gray-800 mb-2">Gestion de Patrimoine</h3>
+                <p className="text-sm text-gray-600">Optimisation et sécurisation de vos avoirs</p>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Conseil en Investissement</h3>
-              <p className="text-sm text-gray-600">Solutions adaptées à votre profil</p>
-            </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
+
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <h3 className="font-semibold text-gray-800 mb-2">Conseil en Investissement</h3>
+                <p className="text-sm text-gray-600">Solutions adaptées à votre profil</p>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Business Solution</h3>
-              <p className="text-sm text-gray-600">Adresse légale pour votre activité</p>
-            </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                </div>
+                <h3 className="font-semibold text-gray-800 mb-2">Business Solution</h3>
+                <p className="text-sm text-gray-600">Adresse légale pour votre activité</p>
               </div>
-              <h3 className="font-semibold text-gray-800 mb-2">Facilitation administrative et comptable</h3>
-              <p className="text-sm text-gray-600">Gestion complète de vos démarches</p>
-            </div>
-          </div>
 
-          {/* Boutons CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to='/contact'
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg"
-            >
-              Prendre Contact
-            </Link>
-            <Link 
-              to='/about'
-              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg"
-            >
-              En savoir plus
-            </Link>
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="font-semibold text-gray-800 mb-2">Facilitation administrative et comptable</h3>
+                <p className="text-sm text-gray-600">Gestion complète de vos démarches</p>
+              </div>
+            </div>
+
+            {/* Boutons CTA */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to='/contact'
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg"
+              >
+                Prendre Contact
+              </Link>
+              <Link
+                to='/about'
+                className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-colors font-semibold text-lg"
+              >
+                En savoir plus
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
 
@@ -411,8 +412,8 @@ const Index = () => {
 
 
 
-     
-               
+
+
 
       {/* Avantages */}
       <section className="py-20 bg-white">

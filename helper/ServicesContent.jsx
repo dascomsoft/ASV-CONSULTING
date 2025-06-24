@@ -22,21 +22,22 @@ const ServicesContent = () => {
           <div className="bg-slate-700 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
             <div className="flex items-center mb-6">
               <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mr-4">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="white" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 9.75L12 3l9 6.75V20a1 1 0 01-1 1h-5.25a.75.75 0 01-.75-.75v-5.25a.75.75 0 00-.75-.75h-2.5a.75.75 0 00-.75.75V20.25a.75.75 0 01-.75.75H4a1 1 0 01-1-1V9.75z" />
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-white">Gestion de Patrimoine</h3>
             </div>
             <p className="text-slate-300 leading-relaxed mb-6">
-              Sécuriser et capitaliser vos avoirs. Nous abordons votre patrimoine dans sa globalité, 
-              sous l'angle juridique, financier, fiscal et social. Nous vous accompagnons tout au long 
+              Sécuriser et capitaliser vos avoirs. Nous abordons votre patrimoine dans sa globalité,
+              sous l'angle juridique, financier, fiscal et social. Nous vous accompagnons tout au long
               de vos projets et vous apportons nos conseils en matière d'optimisation patrimoniale.
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Optimisation fiscale</span>
-              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Sécurisation</span>
-              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Capitalisation</span>
+              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Gestion Locative</span>
+              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Litige foncier conseil</span>
+
             </div>
           </div>
 
@@ -51,13 +52,15 @@ const ServicesContent = () => {
               <h3 className="text-2xl font-bold text-white">Business Solution</h3>
             </div>
             <p className="text-slate-300 leading-relaxed mb-6">
-              Déjà dans une activité, vous souhaitez faire croître votre rentabilité, diversifier votre entreprise. 
+              Déjà dans une activité, vous souhaitez faire croître votre rentabilité, diversifier votre entreprise.
               Audit et accompagnement dans la mise en place de solutions adaptées à votre secteur d'activité.
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm">Audit</span>
               <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm">Croissance</span>
               <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm">Diversification</span>
+              <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm">Contrôle</span>
+
             </div>
           </div>
 
@@ -72,14 +75,14 @@ const ServicesContent = () => {
               <h3 className="text-2xl font-bold text-white">Conseil en Investissement</h3>
             </div>
             <p className="text-slate-300 leading-relaxed mb-6">
-              À la recherche d'une activité génératrice de revenu, comment fructifier vos avoirs, 
-              peu importe la taille de votre portefeuille. Nous vous aidons à trouver des solutions 
+              À la recherche d'une activité génératrice de revenu, comment fructifier vos avoirs,
+              peu importe la taille de votre portefeuille. Nous vous aidons à trouver des solutions
               adaptées à votre profil de risque et vos objectifs.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Profil adapté</span>
-              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Revenus passifs</span>
-              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Diversification</span>
+              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Business plan</span>
+              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Sécurisation</span>
+              <span className="bg-yellow-600 text-white px-3 py-1 rounded-full text-sm">Recherches des capitaux</span>
             </div>
           </div>
 
@@ -94,8 +97,8 @@ const ServicesContent = () => {
               <h3 className="text-2xl font-bold text-white">Facilitation Administrative et Comptable</h3>
             </div>
             <p className="text-slate-300 leading-relaxed mb-6">
-              Domiciliation d'entreprise, archivage numérique de documents, préparation de voyage en Afrique, 
-              facilitation et intermédiation administrative. Vous n'avez pas le temps d'effectuer vos démarches ? 
+              Domiciliation d'entreprise, archivage numérique de documents, préparation de voyage en Afrique,
+              facilitation et intermédiation administrative. Vous n'avez pas le temps d'effectuer vos démarches ?
               Confiez-nous toutes ces tâches.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
@@ -117,9 +120,9 @@ const ServicesContent = () => {
           <p className="text-lg text-slate-300 mb-6">
             Prêt à faire fructifier votre patrimoine ?
           </p>
-          <a 
-            href="https://wa.me/237652280125" 
-            target="_blank" 
+          <a
+            href="https://wa.me/237652280125"
+            target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg shadow-lg inline-block"
           >
